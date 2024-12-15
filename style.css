@@ -1,0 +1,106 @@
+/*In general Design (Whole Website)*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+header {
+  background-color: #040273;
+  color: #fff;
+  padding: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Poppins;
+  font-size: 20px;
+
+}
+
+header h1 {
+  font-size: 28px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 36px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block; 
+  transition: transform 0.2s ease;
+  padding: 10px;
+}
+
+header nav ul li a:hover {
+  transform: scale(1.2); 
+}
+
+
+.main {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #3cffef46;
+  background-image: linear-gradient(rgba(8, 39, 58, 0.332), rgba(8, 39, 58, 0.475)),url("studioroom.jpg") ;
+  background-size: cover;
+  background-position: center;
+  height: 470px;
+  width: 100%;
+}
+
+.main h2 {
+  font-family: Poppins;
+  font-weight: 600;
+  color: #fff;
+  font-size: 60px;
+  margin-top: 80px;
+  margin-bottom: 8px;
+}
+
+.main p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: Raleway;
+
+}
+
+.main .button {
+  padding: 20px 80px;
+  font-family: poppins;
+  font-weight: 600;
+  font-style: none;
+  background: #040273;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  display: inline-flex; 
+  justify-content: center; 
+  align-items: center; 
+  transition: background 0.2s ease; 
+}
+
+.main .button {
+  transition: transform 0.3s ease; 
+}
+
+.main .button:hover{
+  transform: scale(1.2); /* Make the text large */
+}
+.main .button:hover {
+  background: #0056b3; /* Changes the background color smoothly */
+}
+
+
+.contacts {
+  background-color: #0c0c31;
+  color: #fff;
+  padding: 100px 100px; 
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+}
